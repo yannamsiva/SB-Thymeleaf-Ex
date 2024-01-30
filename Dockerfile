@@ -1,4 +1,4 @@
 FROM openjdk:11
-COPY target/SB-Thymeleaf-Ex-0.0.1-SNAPSHOT.jar /usr/app/
+COPY target/sb_thymeleaf_app.jar /usr/app/
 WORKDIR /usr/app/
-ENTRYPOINT ["java","-jar","SB-Thymeleaf-Ex-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java","-jar","sb_thymeleaf_app"]
